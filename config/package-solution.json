@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-employee-directory-webpart-client-side-solution",
+    "id": "29e35a48-e2f7-429d-8e9d-8aa8fcc9149e",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-employee-directory-webpart.sppkg"
+  }
+}

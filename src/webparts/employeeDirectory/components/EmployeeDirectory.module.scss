@@ -1,0 +1,105 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.employeeDirectory {
+  .employee {
+    margin-bottom: 30px;
+  }
+
+  .employeeGrid {
+    position: relative;
+    min-height: 30px;
+  }
+
+  .employeeGridRow {
+    @include ms-Grid-row;
+  }
+
+  .employeeGridCol {
+    @include ms-Grid-col;
+  }
+
+  .search {
+    margin-bottom: 30px;
+  }
+
+  .msPersonaPrimaryTextHoverCard {
+    cursor: pointer;
+  }
+}
+
+.msHoverCard {
+  &CompactCard {
+    padding: 20px 24px;
+  }
+  
+  &CompactCardFooter {
+    margin: 16px -4px 0 -8px;
+    a {
+      height: 32px;
+      padding: 4px;
+      &:hover {
+        background-color: #f4f4f4;
+        color: #333333;
+        i {
+          color: #333333;
+        }
+      }
+    }
+  }
+
+  &ExpandedCardInfo {
+    margin: 20px 0;
+    padding: 0 24px;
+    li {
+      list-style: none;
+    }
+  }
+
+  &ExpandedCardInfoIcon {
+    width: 12px;
+    text-align: center;
+    padding-right: 12px;
+  }
+}
+
+.msHoverCardExpandedCardContent {
+  &Container {
+    margin-top: 16px;
+  }
+
+  &Item {
+    &:hover {
+      background: #EEE;
+    }
+  }
+
+  &ItemCell {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px 24px;
+    i {
+      color: #333333;
+    }
+  }
+
+  &ShowMore {
+    padding: 12px 0;
+    box-sizing: border-box;
+    width: auto;
+    &:before {
+      height: 1px;
+      background: rgb(244, 244, 244);
+      content: '';
+      display: block;
+      margin: 0 20px 8px;
+    }
+    a {
+      padding: 12px 24px;
+      i {
+        @include ms-fontColor-themePrimary;
+      }
+    }
+  }
+}
