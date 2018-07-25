@@ -24,6 +24,7 @@ coverage
 .vs
 bin
 obj
+.vscode
 
 # Resx Generated Code
 *.resx.ts
