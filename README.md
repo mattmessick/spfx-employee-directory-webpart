@@ -1,4 +1,4 @@
-## spfx-employee-directory-webpart
+## SharePoint Framework Employee Directory Web Part
 
 This is where you include your WebPart documentation.
 
