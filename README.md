@@ -1,6 +1,6 @@
 ## SharePoint Framework Employee Directory Web Part
 
-![Employee Directory Web Part displayed in SharePoint Workbench](./assets/preview.png)
+![Employee Directory Web Part displayed in SharePoint Workbench](./assets/preview.jpg)
 
 Web Part built using the SharePoint Framework displaying users in an employee directory.
 
