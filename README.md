@@ -2,7 +2,7 @@
 
 ![Employee Directory Web Part displayed in SharePoint Workbench](./assets/preview.jpg)
 
-Web Part built using the SharePoint Framework displaying users in an employee directory.
+SPFX Web Part that uses React and SharePoint Framework React Controls to display an employee directory.
 
 ### Building the code
 
