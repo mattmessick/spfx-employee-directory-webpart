@@ -1,6 +1,8 @@
 ## SharePoint Framework Employee Directory Web Part
 
-This is where you include your WebPart documentation.
+![Employee Directory Web Part displayed in SharePoint Workbench](./assets/preview.png)
+
+Web Part built using the SharePoint Framework displaying users in an employee directory.
 
 ### Building the code
 
